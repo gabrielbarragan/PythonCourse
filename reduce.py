@@ -5,10 +5,10 @@ from functools import reduce
 my_number_list= [2,2,2,2,2]
 
 #solución con bucle for
-# multiplied_elements= 1
-# for i in my_number_list:
-#     multiplied_elements=multiplied_elements*i
-# print(multiplied_elements)
+multiplied_elements= 1
+for i in my_number_list:
+    multiplied_elements=multiplied_elements*i
+print(multiplied_elements)
 
 print('-------------')
 # #solución con reduce
