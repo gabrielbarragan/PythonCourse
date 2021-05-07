@@ -141,6 +141,10 @@ def reescribir_palabra(list_letter):
         word+=f'{letter} '
     return word
 def points_system(coincidencias,puntaje):
+    """add a point for each hit
+    coincidencia is a list
+    return puntaje
+    """
     if len(coincidencias)>=1:
                 puntaje+=1
     else:
